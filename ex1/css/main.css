@@ -119,7 +119,7 @@ nav {
   color: #bfbfbf;
 }
 
-main {
+.main_mbox {
   position: relative;
   width: 375px;
   height: 222px;
@@ -131,11 +131,11 @@ main {
 .main_box {
   width: 339px;
   height: 186px;
-  position: relative;
+  position: absolute;
   top: 18px;
-  outline: 1px solid red;
+  left: 18px;
+  /* outline: 1px solid red; */
   box-sizing: border-box;
-  margin-left: 18px;
 }
 
 .main_nav {
@@ -196,3 +196,107 @@ main {
   font-size: 13px;
   color: #aaa;
 }
+
+.main_h_box {
+  width: 243px;
+  height: 102px;
+  float: left;
+}
+
+.main_h1 {
+  width: 243px;
+  height: 24px;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.14;
+  text-align: left;
+  letter-spacing: -2.25px;
+  margin-top: 16px;
+  font-stretch: normal;
+}
+
+.main_h3 {
+  width: 243px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.43;
+  text-align: left;
+  letter-spacing: -1.25px;
+  color: #999;;
+  margin-top: 10px;
+}
+
+.main_img2 {
+  margin-top: 16px;
+  float: right;
+}
+
+.main_choice {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 339px;
+  height: 28px;
+  /* outline: 1px solid blue; */
+  
+  
+}
+
+.main_smail {
+  position: relative;
+  width: 46px;
+  height: 28px;
+  outline: 1px solid #ebebeb;
+  border-radius: 4px;
+  float: left;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.main_smail span {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  color: #999;
+}
+
+
+.main_like {
+  position: relative;
+  width: 46px;
+  height: 28px;
+  outline: 1px solid #ebebeb;
+  border-radius: 4px;
+  float: left;
+  margin-left: 4px;
+}
+
+.main_like span {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  color: #999;
+}
+
+.main_like img {
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+.main_like2 {
+  width: 46px;
+  height: 28px;
+  outline: 1px solid #ebebeb;
+  border-radius: 4px;
+  float: right;
+  padding-top: 7px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+
+
+
