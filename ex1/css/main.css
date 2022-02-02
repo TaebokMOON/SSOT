@@ -7,7 +7,7 @@
 
 body {
   width: 375px;
-  height: 812px;
+  height: 100%;
   outline: 1px solid #bfbfbf;
   margin: 0 auto;
   margin-top: 80px;
@@ -15,9 +15,11 @@ body {
 }
 
 .phon {
+  position: relative;
   width: 375px;
   height: 812px;
   background-color: #f5f4f2;
+  overflow: hidden;
 }
 
 header {
@@ -117,6 +119,11 @@ nav {
   letter-spacing: -1.5px;
   padding: 15px 0 17px 5px;
   color: #bfbfbf;
+}
+
+main {
+  height: 100%;
+  overflow: auto;
 }
 
 .main_mbox {
@@ -297,6 +304,61 @@ nav {
   box-sizing: border-box;
 }
 
+.bnav {
+  position: absolute;
+  width: 375px;
+  height: 54px;
+  bottom: 0;
+  left: 0;
+  outline: 1px solid #ebebeb;
+  display: flex;
+  background-color: #fff;
+}
 
+.bnav_box {
+  position: relative;
+  width: 75px;
+  height: 54px;
+}
 
+.bnav_box img {
+  padding-top: 6px;
+  padding-left: 26px;
+}
 
+.bnav_box span {
+  position: relative;
+  top: -6px;
+  left: 19px;
+  width: 37px;
+  height: 15px;
+  margin-top: 4.7em;
+  font-size: 10px;
+}
+
+.bnav_box2 span,
+.bnav_box3 span {
+  left: 28px;
+}
+
+.bnav_box4 span,
+.bnav_box5 span {
+  left: 24px;
+}
+
+.scroll {
+  width: 375px;
+  height: 142px;
+}
+
+.fixed {
+  position: relative;
+}
+
+.icon_fixed {
+  position: fixed;
+  bottom: 65px;
+  right: 26px;
+  width: 56px;
+  height: 56px;
+}
