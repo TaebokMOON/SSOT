@@ -1,0 +1,198 @@
+@charset "utf-8";
+/*메인 CSS - main.css*/
+
+/*외부 CSS파일 합치기*/
+@import url(core.css);
+@import url(reset.css);
+
+body {
+  width: 375px;
+  height: 812px;
+  outline: 1px solid #bfbfbf;
+  margin: 0 auto;
+  margin-top: 80px;
+  
+}
+
+.phon {
+  width: 375px;
+  height: 812px;
+  background-color: #f5f4f2;
+}
+
+header {
+  width: 375px;
+  height: 44px;
+  background-color: #fff;
+}
+
+.time {
+  width: 54px;
+  height: 22px;
+  padding: 14.3px 0 7.7px 21px;
+  font-weight: 800;
+  float: left;
+  text-align: center;
+}
+
+.fourG{
+  float: left;
+  padding-top: 12.7px;
+  padding-left: 240px;
+}
+
+.wi-fi {
+  float: left;
+  padding-top: 12.7px;
+  padding-left: 5px;
+}
+
+.battery {
+  float: left;
+  padding-top: 12.7px;
+  padding-left: 5px;
+}
+
+nav {
+  width: 375px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+}
+
+.nav1 {
+  width: 103px;
+  height: 28px;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding: 15px 0 17px 20px;
+}
+
+.nav1 > span {
+  color: #292929;
+}
+
+.navImg {
+  width: 24px;
+  height: 24px;
+  padding: 17px 0 19px 5px;
+}
+
+.nav2 {
+  width: 35px;
+  height: 28px;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding: 15px 0 17px 5px;
+  color: #bfbfbf;
+}
+
+.nav3 {
+  width: 35px;
+  height: 28px;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding: 15px 0 17px 5px;
+  color: #bfbfbf;
+}
+
+.nav4 {
+  width: 35px;
+  height: 28px;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding: 15px 0 17px 5px;
+  color: #bfbfbf;
+}
+
+.nav5 {
+  width: 35px;
+  height: 28px;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding: 15px 0 17px 5px;
+  color: #bfbfbf;
+}
+
+main {
+  position: relative;
+  width: 375px;
+  height: 222px;
+  background: #fff;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+.main_box {
+  width: 339px;
+  height: 186px;
+  position: relative;
+  top: 18px;
+  outline: 1px solid red;
+  box-sizing: border-box;
+  margin-left: 18px;
+}
+
+.main_nav {
+  width: 290px;
+  height: 24px;
+  display: flex;
+}
+
+.main_imgbox {
+  width: 24px;
+  height: 24px;
+}
+
+.main_img {
+  background-image: url(../images/twitter1.png);
+  width: 100%;
+}
+
+.main_id {
+  width: 78px;
+  height: 20px;
+  margin: 2px 0 2px 8px;
+}
+
+.main_id > span {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+
+.main_point {
+  width: 2px;
+  height: 2px;
+  background-color: #999;
+  margin: 11px 6px 9px 6px;
+}
+
+.main_car {
+  width: 78px;
+  height: 20px;
+  margin: 2px 0 2px 0;
+}
+
+.main_car > span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaa;
+  letter-spacing: -1.5px;
+}
+
+.main_time {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main_time > span {
+  font-size: 13px;
+  color: #aaa;
+}
