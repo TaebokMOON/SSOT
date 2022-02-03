@@ -7,59 +7,18 @@
 
 body {
   width: 375px;
-  height: 100%;
-  outline: 1px solid #bfbfbf;
-  margin: 0 auto;
-  margin-top: 80px;
-  
-}
-
-.phon {
-  position: relative;
-  width: 375px;
   height: 812px;
+  outline: 1px solid red;
+  /* margin: 0 auto; */
   background-color: #f5f4f2;
   overflow: hidden;
 }
 
-header {
-  width: 375px;
-  height: 44px;
-  background-color: #fff;
-}
-
-.time {
-  width: 54px;
-  height: 22px;
-  padding: 14.3px 0 7.7px 21px;
-  font-weight: 800;
-  float: left;
-  text-align: center;
-}
-
-.fourG{
-  float: left;
-  padding-top: 12.7px;
-  padding-left: 240px;
-}
-
-.wi-fi {
-  float: left;
-  padding-top: 12.7px;
-  padding-left: 5px;
-}
-
-.battery {
-  float: left;
-  padding-top: 12.7px;
-  padding-left: 5px;
-}
-
-nav {
+.top {
+  
   width: 375px;
   height: 60px;
   background-color: #fff;
-  display: flex;
 }
 
 .nav1 {
@@ -69,10 +28,6 @@ nav {
   font-weight: bold;
   letter-spacing: -1.5px;
   padding: 15px 0 17px 20px;
-}
-
-.nav1 > span {
-  color: #292929;
 }
 
 .navImg {
@@ -88,6 +43,9 @@ nav {
   font-weight: bold;
   letter-spacing: -1.5px;
   padding: 15px 0 17px 5px;
+}
+
+.nav2 span {
   color: #bfbfbf;
 }
 
@@ -98,6 +56,9 @@ nav {
   font-weight: bold;
   letter-spacing: -1.5px;
   padding: 15px 0 17px 5px;
+}
+
+.nav3 span {
   color: #bfbfbf;
 }
 
@@ -111,6 +72,10 @@ nav {
   color: #bfbfbf;
 }
 
+.nav4 span {
+  color: #bfbfbf;
+}
+
 .nav5 {
   width: 35px;
   height: 28px;
@@ -121,7 +86,13 @@ nav {
   color: #bfbfbf;
 }
 
+.nav5 span {
+  color: #bfbfbf;
+}
+
 main {
+  position: relative;
+  width: 375px;
   height: 100%;
   overflow: auto;
 }
@@ -151,11 +122,6 @@ main {
   display: flex;
 }
 
-.main_imgbox {
-  width: 24px;
-  height: 24px;
-}
-
 .main_img {
   background-image: url(../images/twitter1.png);
   width: 100%;
@@ -167,7 +133,7 @@ main {
   margin: 2px 0 2px 8px;
 }
 
-.main_id > span {
+.main_id>span {
   font-size: 14px;
   font-weight: 800;
   letter-spacing: -1.5px;
@@ -186,7 +152,7 @@ main {
   margin: 2px 0 2px 0;
 }
 
-.main_car > span {
+.main_car>span {
   font-size: 14px;
   font-weight: 500;
   color: #aaa;
@@ -199,7 +165,7 @@ main {
   right: 0;
 }
 
-.main_time > span {
+.main_time>span {
   font-size: 13px;
   color: #aaa;
 }
@@ -230,7 +196,8 @@ main {
   line-height: 1.43;
   text-align: left;
   letter-spacing: -1.25px;
-  color: #999;;
+  color: #999;
+  ;
   margin-top: 10px;
 }
 
@@ -246,8 +213,6 @@ main {
   width: 339px;
   height: 28px;
   /* outline: 1px solid blue; */
-  
-  
 }
 
 .main_smail {
@@ -269,7 +234,6 @@ main {
   right: 8px;
   color: #999;
 }
-
 
 .main_like {
   position: relative;
@@ -305,20 +269,21 @@ main {
 }
 
 .bnav {
-  position: absolute;
   width: 375px;
   height: 54px;
-  bottom: 0;
-  left: 0;
   outline: 1px solid #ebebeb;
   display: flex;
   background-color: #fff;
+  margin-top: -54px;
+  z-index: 99;
+  /* outline: 1px solid red; */
 }
 
 .bnav_box {
   position: relative;
   width: 75px;
   height: 54px;
+  background-color: #fff;
 }
 
 .bnav_box img {
@@ -348,7 +313,7 @@ main {
 
 .scroll {
   width: 375px;
-  height: 142px;
+  height: 54px;
 }
 
 .fixed {
@@ -356,9 +321,49 @@ main {
 }
 
 .icon_fixed {
-  position: fixed;
-  bottom: 65px;
-  right: 26px;
+  position: relative;
+  bottom: 124px;
+  left: 296px;
   width: 56px;
   height: 56px;
+}
+
+/*전체 페이지 부모(가로스크롤 박스역활)*/
+.wrap {
+  width: 500%;
+  height: 100%;
+}
+
+/*페이지 공통*/
+.page {
+  width: 20%;
+  /*부모박스를 7등분함!!*/
+  min-height: 100%;
+  float: left;
+  /*
+                width: 100vw;
+                height: 100vh;
+                보이는 화면 기준의 뷰포트단위를 쓰면 body의 height 100%가 필요없다!!!
+                단, vw단위는 스크롤바 트랙까지 포함한 화면 전체를 기준하므로 데이스크 탑에서는 100%를 쓰는게 좋다!!!!(가로스크롤바가 생기기 때문이다!!!)
+            */
+}
+
+#pg1 {
+  background-color: #f5f4f2;
+}
+
+#pg2 {
+  background-color: red;
+}
+
+#pg3 {
+  background-color: blue;
+}
+
+#pg4 {
+  background-color: black;
+}
+
+#pg5 {
+  background-color: orange;
 }

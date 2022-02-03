@@ -36,13 +36,10 @@ ol::after, ul::after{
 }
 
 li {
-  /* float: left;*/
+  float: left;
 }
 
-a {
-    color: #222;
-    text-decoration: none;
-}
+
 
 img {
     border: none;
