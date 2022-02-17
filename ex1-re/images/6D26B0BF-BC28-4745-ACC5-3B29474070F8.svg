@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0F78EF8F-EE7F-4CBD-BB3C-7E661F16E913</title>
+    <defs>
+        <path d="M3.23126022,1.21705103 L21.3905248,11.1221044 C21.8753731,11.3865672 22.054031,11.9940038 21.7895682,12.4788521 C21.6976229,12.6474186 21.5590913,12.7859502 21.3905248,12.8778956 L3.23126022,22.782949 C2.74641188,23.0474117 2.13897524,22.8687539 1.87451251,22.3839055 C1.74157869,22.1401935 1.715937,21.852189 1.80372479,21.5888256 L4.51913678,13.439945 L11,12 L4.51913678,10.559945 L1.80372479,2.41117437 C1.62907702,1.88723105 1.912237,1.32091108 2.43618032,1.1462633 C2.69954367,1.05847552 2.9875482,1.0841172 3.23126022,1.21705103 Z" id="path-1"></path>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_2.Reply_OverRow" transform="translate(-335.000000, -481.000000)">
+            <g id="Article/input" transform="translate(0.000000, 403.000000)">
+                <g id="ico/send" transform="translate(335.000000, 78.000000)">
+                    <rect id="bg" x="0" y="0" width="24" height="24"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#147BF9" xlink:href="#path-1"></use>
+                    <rect id="color" fill="#383838" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
