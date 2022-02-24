@@ -9,7 +9,7 @@
 body {
     background-image: url(../images/bg.png);
     /*배경 패턴으로 셋팅, 반복 기본*/
-    font-family: Nanum, "맑은 고딕", Verdana;
+    font-family: 'BinggraeSamanco-Bold', Nanum, "맑은 고딕", Verdana;
     font-size: 15px;/*글자 기본크기는 16px 변경*/
     letter-spacing: -1px;/*글자 간격 (기본값은 0)*/
     box-sizing: border-box;
